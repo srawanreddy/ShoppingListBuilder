@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShoppingListBuilder</string>
+    <string name="button_text">Add Item</string>
+    <string name="button_cheese_text">Cheese</string>
+    <string name="button_rice_text">Rice</string>
+    <string name="button_juice_text">Juice</string>
+    <string name="button_fruits_text">Fruits</string>
+</resources>

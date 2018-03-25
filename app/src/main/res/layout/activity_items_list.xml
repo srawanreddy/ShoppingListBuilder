@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sravanreddy.shoppinglistbuilder.ItemsList">
+
+    <Button
+        android:id="@+id/button_cheese"
+        android:layout_width="match_parent"
+        android:onClick="clickhandler"
+        android:layout_height="wrap_content"
+        android:text="@string/button_cheese_text" />
+
+    <Button
+        android:id="@+id/button_rice"
+        android:layout_width="match_parent"
+        android:onClick="clickhandler"
+        android:layout_height="wrap_content"
+        android:text="@string/button_rice_text" />
+
+    <Button
+        android:id="@+id/button_juice"
+        android:layout_width="match_parent"
+        android:onClick="clickhandler"
+        android:layout_height="wrap_content"
+        android:text="@string/button_juice_text" />
+
+    <Button
+        android:id="@+id/button_veggies"
+        android:layout_width="match_parent"
+        android:onClick="clickhandler"
+        android:layout_height="wrap_content"
+        android:text="Vegetables" />
+
+    <Button
+        android:id="@+id/button_fruits"
+        android:layout_width="match_parent"
+        android:onClick="clickhandler"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fruits_text" />
+</LinearLayout>
